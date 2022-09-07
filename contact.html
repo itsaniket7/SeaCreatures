@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="contact.css">
+        <link rel="stylesheet" type="text/css" href="home.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <script src="contact.js"></script> 
+        <title>SeaCreatures - Contact Us</title>
+    </head>
+    <body>
+        <div id="abc" style="background-image:  url(bg.jpeg);
+        background-size: cover;">
+            <nav>
+                <ul>
+                    <li style="position: absolute; left: 2px; top: 2px;">
+                      <div class="logo-holder logo-6">
+                        <a href="home.html">Sea <span>Creatures</span></a>
+                      </div>
+                    </li>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="info.html">Fishes</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            <section class="contact">
+                <div class="content">
+                    <h2>Contact Us</h2>
+                    <p>We're here to help and answer any question you might have. We look forward to hearing from you 😊.
+                    </p>
+
+                </div>
+                <div class="container">
+                    <div class="contactInfo">
+                        <div class="box">
+                            <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                            </div>
+                                <div class="text">
+                                    <h3>Address</h3>
+                                    <p>4001 Military Camp Road,<br>Kalina, Santacruz,<br>770077</p>
+                                </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i>
+                            </div>
+                                <div class="text">
+                                    <h3>Phone</h3>
+                                    <p>+91 7700007777</p>
+                                </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </div>
+                                <div class="text">
+                                    <h3>Email</h3>
+                                    <p>aniket.sawant@spit.ac.in</p>
+                                </div>
+                        </div>
+
+                    </div>
+                    <div class="contactForm">
+                        <form name="form">
+                            <h2>Send Message</h2>
+                            <div class="inputBox">
+                                <input type="text" name="text" required>
+                                <span>Full Name</span>
+                            </div>
+
+                            <div class="inputBox">
+                                <input type="text" name="text1" required>
+                                <span>Email</span>
+                            </div>
+
+                            <div class="inputBox">
+                                <textarea name="tarea" required></textarea>
+                                <span>Type your message...</span>
+                            </div>
+
+                            <div class="inputBox">
+                                <input type="submit" name="submit" value="Send" onclick="ValidateEmail(document.form.text1, document.form.text, document.form.tarea)"required>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </section>
+
+        </div>     
+    </body>
+</html>

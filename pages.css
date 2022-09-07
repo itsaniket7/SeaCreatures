@@ -1,0 +1,33 @@
+.info{
+    border: 1px solid gray;
+    padding: 8px;
+    position: fixed;
+    width: 49%;
+    top: 13%;
+    height: 57%;
+    border-radius: 8px;
+    background-color: rgb(223, 231, 231);
+  }
+
+ .info h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+  }
+  
+ .info p {
+    text-indent: 50px;
+    text-align: justify;
+    /* letter-spacing: 3px; */
+  }
+  
+ .info a {
+    text-decoration: none;
+    color: #008CBA;
+  }
+  img {
+    border-radius: 8px;
+    position: fixed;
+    right: 10px;
+    top: 13%;
+  }
